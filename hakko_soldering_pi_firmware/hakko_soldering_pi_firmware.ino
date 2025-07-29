@@ -73,7 +73,7 @@ void controlLoop() {
     u_I = 1.0f - u_P;
   }
   if (u_P < 0.0f) {
-    u_P = 1.0f;
+    u_P = 0.0f;
   }
   if ((u_P + u_I) < 0.0f) {
     u_I = 0 - u_P;

@@ -114,5 +114,4 @@ ani = animation.FuncAnimation(fig, animate, frames=len(zeta_values),
                               init_func=init, blit=True, interval=50)
 ani.save("pole_and_step_response.gif", writer="pillow", fps=30)
 
-
 plt.show()
